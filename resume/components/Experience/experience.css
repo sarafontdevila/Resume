@@ -17,16 +17,6 @@ li {
   padding: 20px;
   gap: 10px;
 }
-/*#selector {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-  color: var(--letter2);
-  font-size: 40px;
-  font-weight: 600;
-  cursor: pointer;
-}*/
 
 #experienceBtn {
   background-color: var(--background4);
@@ -39,4 +29,9 @@ li {
 }
 button:hover {
   text-decoration: underline;
+}
+@media (max-width: 768px) {
+  #experienceBtn {
+    font-size: 23px;
+  }
 }
