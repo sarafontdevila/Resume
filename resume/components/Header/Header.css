@@ -20,19 +20,6 @@ a {
   color: var(--background1);
 }
 
-.hamburger {
-  display: none;
-  flex-direction: column;
-  gap: 5px;
-  cursor: pointer;
-}
-.hamburger span {
-  display: none;
-  width: 25px;
-  height: 3px;
-  background-color: white;
-  border-radius: 2px;
-}
 .nav {
   display: flex;
   align-items: center;
@@ -55,12 +42,19 @@ a {
 
   .hamburger {
     display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
   }
-
   .hamburger span {
+    display: none;
     width: 25px;
     height: 3px;
-    background-color: var(--background1);
+    background-color: white;
+    border-radius: 2px;
+  }
+  .hamburger.open span {
+    display: block;
   }
 
   header ul {
