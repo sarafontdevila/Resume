@@ -29,6 +29,25 @@ const template = () => {
   `
 }
 
+const addEventListeners = () => {
+  const hamburger = document.getElementById('hamburger')
+  const navLinks = document.getElementById('nav-links')
+  const links = document.querySelectorAll('.nav-link')
+
+  hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('open')
+  })
+
+  links.forEach((link) => {
+    link.addEventListener('click', (event) => {
+      event.preventDefault()
+      const targetId = link.getAttribute('href')
+      document.querySelector(targetId).scrollIntoView({ behavior: 'smooth' })
+      navLinks.classList.remove('open')
+    })
+  })
+}
+
 const Header = () => {
   return template()
 }

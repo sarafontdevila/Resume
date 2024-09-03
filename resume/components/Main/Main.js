@@ -40,19 +40,3 @@ export const addMainListeners = () => {
 export const Main = () => {
   return template()
 }
-
-/*export const addMainListeners = () => {
-  const button = document.querySelector('#selector')
-
-  button.addEventListener('click', () => {
-    const content = document.querySelector('#content')
-    if (show === 'Experience') {
-      content.innerHTML = `${Experience()}`
-      show = 'Education'
-    } else {
-      content.innerHTML = `${Education()}`
-      show = 'Experience'
-    }
-    button.textContent = `Show ${show}`
-  })
-}*/

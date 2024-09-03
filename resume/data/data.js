@@ -69,27 +69,18 @@ const data = {
       preview: '../../assets/App.png',
       description:
         'Created and implemented a user-friendly marketplace website with streamlined navigation.'
-      /*link: 'http://github.com/#',
-      preview:
-        'https://plus.unsplash.com/premium_photo-1684785618727-378a3a5e91c5?auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZWNvbW1lcmNlfGVufDB8fDB8fHww&w=500'*/
     },
     {
       title: 'E-commerce',
       preview: '../../assets/Cosplay.png',
       description:
         'Developed an intuitive cosplay e-commerce site featuring optimized product listings.'
-      /*link: 'http://github.com/#',
-      preview:
-        'https://proyecto2ecommerce.netlify.app/'*/
     },
     {
       title: 'Picture Search',
       preview: '../../assets/Pintor.png',
       description:
         'Built a specialized website that allows users to search and discover images quickly through filtering. Integrated a user-friendly interface and recommendations.'
-      /*link: 'http://github.com/#',
-      preview:
-        'https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=2071'*/
     }
   ]
 }
