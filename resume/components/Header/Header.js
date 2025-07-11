@@ -12,16 +12,16 @@ const template = () => {
             </div>
       <ul class="nav-links" id="nav-links">
         <li>
-          <a href="#aboutme">About me</a>
+          <a class = "nav-link" href="#aboutme">About me</a>
         </li>
         <li>
-          <a href="#education">Education</a>
+          <a class= "nav-link" href="#education">Education</a>
         </li>
         <li>
-          <a href="#experience">Experience</a>
+          <a class= "nav-link" href="#experience">Experience</a>
         </li>
         <li>
-          <a href="#projects">Projects</a>
+          <a class= "nav-link" href="#projects">Projects</a>
         </li>
       </ul>
     </nav>
@@ -52,4 +52,4 @@ const Header = () => {
   return template()
 }
 
-export default Header
+export { Header as default, addEventListeners }

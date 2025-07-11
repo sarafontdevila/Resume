@@ -35,6 +35,23 @@ h5 {
   padding-top: 0px;
 }
 @media (max-width: 768px) {
+  .education li {
+    padding: 15px;
+  }
+
+  .education h2 {
+    font-size: 1.1rem;
+  }
+
+  .education h4,
+  .education h5 {
+    font-size: 0.9rem;
+  }
+
+  .education p {
+    font-size: 0.9rem;
+  }
+
   #educationBtn {
     font-size: 23px;
   }

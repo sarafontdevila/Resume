@@ -6,6 +6,9 @@ header {
   background-color: var(--background3);
   color: var(--letter1);
 }
+header h1{
+  margin-left: 20px;
+}
 
 header li {
   text-align: center;

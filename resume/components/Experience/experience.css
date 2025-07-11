@@ -31,6 +31,23 @@ button:hover {
   text-decoration: underline;
 }
 @media (max-width: 768px) {
+  .experience li {
+    padding: 15px;
+  }
+
+  .experience h2 {
+    font-size: 1.1rem;
+  }
+
+  .experience h4,
+  .experience h5 {
+    font-size: 0.9rem;
+  }
+
+  .experience p {
+    font-size: 0.9rem;
+  }
+
   #experienceBtn {
     font-size: 23px;
   }
